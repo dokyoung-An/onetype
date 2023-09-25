@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: coohome-version-?? ???.ggsk
-// Generated 2023-09-25T12:55:57
+// Generated 2023-09-25T13:35:03
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_catagory', 2, false, { ignoreInState: 0  });
@@ -7002,7 +7002,7 @@ function pano2vrSkin(player,base) {
 		me.__115.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
-				((player._(me.ggUserdata.comment) == "\ub2e8\ub3c5"))
+				((player._(me.ggUserdata.comment) == "\ub2e8\ub3c5\ud615"))
 			)
 			{
 				newLogicStateTextColor = 0;
@@ -7110,7 +7110,7 @@ function pano2vrSkin(player,base) {
 		me.__116.logicBlock_textcolor = function() {
 			var newLogicStateTextColor;
 			if (
-				((player._(me.ggUserdata.comment) == "\ub2e8\ub3c5"))
+				((player._(me.ggUserdata.comment) == "\ub2e8\ub3c5\ud615"))
 			)
 			{
 				newLogicStateTextColor = 0;
@@ -7212,7 +7212,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__217.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
 				me.__217.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
-				me.__217.style.transition='background-color 0s';
+				me.__217.style.transition='background-color 0s, color 0s';
 				if (me.__217.ggCurrentLogicStateBackgroundColor == 0) {
 					me.__217.style.backgroundColor="rgba(77,77,77,1)";
 				}
@@ -7222,6 +7222,29 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__217.logicBlock_backgroundcolor();
+		me.__217.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				((player._(me.ggUserdata.comment) == "\uc5f0\ub9bd\ud615A"))
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me.__217.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me.__217.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me.__217.style.transition='background-color 0s, color 0s';
+				if (me.__217.ggCurrentLogicStateTextColor == 0) {
+					me.__217.style.color="rgba(26,109,255,1)";
+				}
+				else {
+					me.__217.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me.__217.logicBlock_textcolor();
 		me.__217.onclick=function (e) {
 			player.openUrl(" https:\/\/web-suwanhomea-4fju66f2clmy8hj45.sel5.cloudtype.app\/","_self");
 		}
@@ -7241,6 +7264,7 @@ function pano2vrSkin(player,base) {
 			me.__217.logicBlock_backgroundcolor();
 		}
 		me.__217.ggCurrentLogicStateBackgroundColor = -1;
+		me.__217.ggCurrentLogicStateTextColor = -1;
 		me.__217.ggUpdateConditionTimer=function () {
 			if (me.elementMouseOver['_217']) {
 				me.elementMouseOver['_217']=true;
@@ -7306,6 +7330,29 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__218.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				((player._(me.ggUserdata.comment) == "\uc5f0\ub9bd\ud615A"))
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me.__218.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me.__218.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me.__218.style.transition='color 0s';
+				if (me.__218.ggCurrentLogicStateTextColor == 0) {
+					me.__218.style.color="rgba(26,109,255,1)";
+				}
+				else {
+					me.__218.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me.__218.logicBlock_textcolor();
 		me.__218.ggUpdatePosition=function (useTransition) {
 		}
 		me.__217.appendChild(me.__218);
@@ -7388,7 +7435,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__310.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
 				me.__310.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
-				me.__310.style.transition='background-color 0s';
+				me.__310.style.transition='background-color 0s, color 0s';
 				if (me.__310.ggCurrentLogicStateBackgroundColor == 0) {
 					me.__310.style.backgroundColor="rgba(77,77,77,1)";
 				}
@@ -7398,6 +7445,29 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__310.logicBlock_backgroundcolor();
+		me.__310.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				((player._(me.ggUserdata.comment) == "\uc5f0\ub9bd\ud615B"))
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me.__310.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me.__310.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me.__310.style.transition='background-color 0s, color 0s';
+				if (me.__310.ggCurrentLogicStateTextColor == 0) {
+					me.__310.style.color="rgba(26,109,255,1)";
+				}
+				else {
+					me.__310.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me.__310.logicBlock_textcolor();
 		me.__310.onclick=function (e) {
 			player.openUrl(" https:\/\/web-suwanhomeb-4fju66f2clmy8hj45.sel5.cloudtype.app\/","_self");
 		}
@@ -7417,6 +7487,7 @@ function pano2vrSkin(player,base) {
 			me.__310.logicBlock_backgroundcolor();
 		}
 		me.__310.ggCurrentLogicStateBackgroundColor = -1;
+		me.__310.ggCurrentLogicStateTextColor = -1;
 		me.__310.ggUpdateConditionTimer=function () {
 			if (me.elementMouseOver['_310']) {
 				me.elementMouseOver['_310']=true;
@@ -7482,6 +7553,29 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__311.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				((player._(me.ggUserdata.comment) == "\uc5f0\ub9bd\ud615B"))
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me.__311.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me.__311.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me.__311.style.transition='color 0s';
+				if (me.__311.ggCurrentLogicStateTextColor == 0) {
+					me.__311.style.color="rgba(26,109,255,1)";
+				}
+				else {
+					me.__311.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me.__311.logicBlock_textcolor();
 		me.__311.ggUpdatePosition=function (useTransition) {
 		}
 		me.__310.appendChild(me.__311);
@@ -7564,7 +7658,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__410.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
 				me.__410.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
-				me.__410.style.transition='background-color 0s';
+				me.__410.style.transition='background-color 0s, color 0s';
 				if (me.__410.ggCurrentLogicStateBackgroundColor == 0) {
 					me.__410.style.backgroundColor="rgba(77,77,77,1)";
 				}
@@ -7574,6 +7668,29 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__410.logicBlock_backgroundcolor();
+		me.__410.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				((player._(me.ggUserdata.comment) == "\uc5f0\ub9bd\ud615C"))
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me.__410.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me.__410.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me.__410.style.transition='background-color 0s, color 0s';
+				if (me.__410.ggCurrentLogicStateTextColor == 0) {
+					me.__410.style.color="rgba(26,109,255,1)";
+				}
+				else {
+					me.__410.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me.__410.logicBlock_textcolor();
 		me.__410.onclick=function (e) {
 			player.openUrl("https:\/\/web-suwanhomec-4fju66f2clmy8hj45.sel5.cloudtype.app\/\n","_self");
 		}
@@ -7593,6 +7710,7 @@ function pano2vrSkin(player,base) {
 			me.__410.logicBlock_backgroundcolor();
 		}
 		me.__410.ggCurrentLogicStateBackgroundColor = -1;
+		me.__410.ggCurrentLogicStateTextColor = -1;
 		me.__410.ggUpdateConditionTimer=function () {
 			if (me.elementMouseOver['_410']) {
 				me.elementMouseOver['_410']=true;
@@ -7658,6 +7776,29 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__411.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				((player._(me.ggUserdata.comment) == "\uc5f0\ub9bd\ud615C"))
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me.__411.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me.__411.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me.__411.style.transition='color 0s';
+				if (me.__411.ggCurrentLogicStateTextColor == 0) {
+					me.__411.style.color="rgba(26,109,255,1)";
+				}
+				else {
+					me.__411.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me.__411.logicBlock_textcolor();
 		me.__411.ggUpdatePosition=function (useTransition) {
 		}
 		me.__410.appendChild(me.__411);
@@ -17861,8 +18002,14 @@ function pano2vrSkin(player,base) {
 		me.__115.logicBlock_textcolor();
 		me.__116.logicBlock_textcolor();
 		me.__217.logicBlock_backgroundcolor();
+		me.__217.logicBlock_textcolor();
+		me.__218.logicBlock_textcolor();
 		me.__310.logicBlock_backgroundcolor();
+		me.__310.logicBlock_textcolor();
+		me.__311.logicBlock_textcolor();
 		me.__410.logicBlock_backgroundcolor();
+		me.__410.logicBlock_textcolor();
+		me.__411.logicBlock_textcolor();
 		me.__510.logicBlock_backgroundcolor();
 		me.__510.logicBlock_textcolor();
 		me.__511.logicBlock_textcolor();
@@ -18736,6 +18883,12 @@ function pano2vrSkin(player,base) {
 			me.__65.logicBlock_position();
 			me.__115.logicBlock_textcolor();
 			me.__116.logicBlock_textcolor();
+			me.__217.logicBlock_textcolor();
+			me.__218.logicBlock_textcolor();
+			me.__310.logicBlock_textcolor();
+			me.__311.logicBlock_textcolor();
+			me.__410.logicBlock_textcolor();
+			me.__411.logicBlock_textcolor();
 			me.__510.logicBlock_textcolor();
 			me.__511.logicBlock_textcolor();
 			me.__58.logicBlock_visible();
@@ -18832,6 +18985,12 @@ function pano2vrSkin(player,base) {
 			me.__65.logicBlock_position();
 			me.__115.logicBlock_textcolor();
 			me.__116.logicBlock_textcolor();
+			me.__217.logicBlock_textcolor();
+			me.__218.logicBlock_textcolor();
+			me.__310.logicBlock_textcolor();
+			me.__311.logicBlock_textcolor();
+			me.__410.logicBlock_textcolor();
+			me.__411.logicBlock_textcolor();
 			me.__510.logicBlock_textcolor();
 			me.__511.logicBlock_textcolor();
 			me.__50.logicBlock_position();
@@ -18964,6 +19123,12 @@ function pano2vrSkin(player,base) {
 			me.__65.logicBlock_position();
 			me.__115.logicBlock_textcolor();
 			me.__116.logicBlock_textcolor();
+			me.__217.logicBlock_textcolor();
+			me.__218.logicBlock_textcolor();
+			me.__310.logicBlock_textcolor();
+			me.__311.logicBlock_textcolor();
+			me.__410.logicBlock_textcolor();
+			me.__411.logicBlock_textcolor();
 			me.__510.logicBlock_textcolor();
 			me.__511.logicBlock_textcolor();
 			me.__50.logicBlock_position();
